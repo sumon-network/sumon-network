@@ -97,7 +97,7 @@
         function loadChannels() {
             // Simulate delay for loading channels
             setTimeout(() => {
-                fetch('https://raw.githubusercontent.com/hdoktvltd/hd-live.tv/refs/heads/main/playlist.m3u')
+                fetch('https://rentry.co/4833qr6p/raw')
                     .then(response => response.text())
                     .then(data => {
                         const lines = data.split('\n');
